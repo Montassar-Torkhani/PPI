@@ -24,27 +24,35 @@ This Python script facilitates the analysis of Protein-Protein Interaction (PPI)
 
 ## Screenshots
 
-- **Input Number of Interactions
+**Input Number of Interactions
+
 ![input_interaction](https://github.com/Montassar-Torkhani/Xamarin-Project/assets/97996083/ae3b6584-6510-498d-ad07-54df7655737c)
 
 
-- **Result of PPI Network
+**Result of PPI Network
+  
 ![ProtNetwork](https://github.com/Montassar-Torkhani/Xamarin-Project/assets/97996083/a06270fa-e3da-4428-ab31-f595bc278508)
 
 
-- **Input Protein Source
+**Input Protein Source
+  
 ![ptsSurce](https://github.com/Montassar-Torkhani/Xamarin-Project/assets/97996083/00ff1f78-b63f-48b0-959a-fb65036bb0a9)
 
 
-- **Input Protein Target
+**Input Protein Target
+  
 ![ptTarget](https://github.com/Montassar-Torkhani/Xamarin-Project/assets/97996083/119b66be-0673-43d0-ac10-47c868424da6)
 
 
-- **Input Protein for Degree Calculation
+**Input Protein for Degree Calculation
+  
 ![deg noeud](https://github.com/Montassar-Torkhani/Xamarin-Project/assets/97996083/6d8b0359-3465-4e03-b45d-0a1817b23cd4)
 
 
-- **Result of Protein-Protein Interaction Network :
+
+
+**Result of Protein-Protein Interaction Network :
+
 - Shortest Distance from Source to Target: {Shortest Distance Value}
 - Characteristic Path Length: {Characteristic Path Length Value}
 - Clustering Coefficient: {Clustering Coefficient Value}
@@ -71,13 +79,16 @@ This Python script facilitates the analysis of Protein-Protein Interaction (PPI)
    conda create -n ppi_env python=3.11.5
 
 3. **Activate the environment to use it:**
-*conda activate ppi_env
-
-4. **Install Dependencies:**
--Inside the activated environment (if you created one), install the required libraries using pip:
-*pip install networkx matplotlib tkinter
+   ```bash
+   conda activate ppi_env
 
 5. **Install Dependencies:**
+-Inside the activated environment (if you created one), install the required libraries using pip:
+   ```bash
+   pip install networkx matplotlib tkinter
+
+7. **Install Dependencies:**
 - Navigate to the project directory using your terminal and execute the script:
-*python PPi.py
+    ```bash
+   python PPi.py
 
