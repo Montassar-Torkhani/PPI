@@ -87,7 +87,7 @@ This Python script facilitates the analysis of Protein-Protein Interaction (PPI)
    ```bash
    pip install networkx matplotlib tkinter
 
-7. **Install Dependencies:**
+7. **Run the Script:**
 - Navigate to the project directory using your terminal and execute the script:
     ```bash
    python PPi.py
